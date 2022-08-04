@@ -180,3 +180,12 @@ footer {
     padding-bottom: 1rem;
   }
 }
+
+$escritorio: 1440px;
+
+@media (min-width: $escritorio){
+  .main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
