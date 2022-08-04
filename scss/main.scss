@@ -3,6 +3,7 @@
 
 h1 {
   font-family: Poppins, sans-serif;
+  color: hsl(192, 100%, 9%);
 }
 
 body {
@@ -19,16 +20,15 @@ body {
 
   margin: 0;
 }
-.container{
+.container {
   max-width: 80%;
   margin: 0 auto;
 }
-header{
-   
-    h1{
-        text-align: center;
-        margin-top: 10px;
-    }
+header {
+  h1 {
+    text-align: center;
+    margin-top: 10px;
+  }
 }
 
 .navbar {
@@ -44,35 +44,31 @@ header{
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
-
     border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 5px;
   }
 
   .logo {
-    height: 1.5rem;
+    height: 1rem;
   }
 }
 
-.main{
+.main {
   text-align: center;
   margin: 0 auto;
   max-width: auto;
   margin-top: 5rem;
   a {
-    background-color:  hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
     text-decoration: none;
     border-radius: 20px;
-  display: inline-block;
-  /* padding: 6px; */
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #fff;
+    display: inline-block;
+    /* padding: 6px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
   }
   h1 {
     font-weight: 700;
@@ -83,12 +79,59 @@ header{
   }
 }
 
-footer{
+.card {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+  margin-top: 2rem;
+
+  img {
+    margin-top: 15px;
+  }
+
+  p{
+    color: hsl(208, 11%, 55%);
+  }
+
+  .contenido {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.LastCard {
+  background-color: #fff;
+  color: #000;
+  font-weight: 400;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+  position: relative;
+  top: -30px;
+  a {
+    background-color: hsl(322, 100%, 66%);
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    /* padding: 6px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+  }
+}
+
+footer {
   max-width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
   color: #fff;
   background-color: hsl(192, 100%, 9%);
+  margin-top: 50px;
 
   .logo-texto {
     display: flex;
@@ -127,6 +170,3 @@ footer{
     padding-bottom: 1rem;
   }
 }
-
-/*main section*/
-

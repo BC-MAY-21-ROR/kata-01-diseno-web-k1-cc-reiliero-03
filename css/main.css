@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 h1 {
   font-family: Poppins, sans-serif;
+  color: hsl(192deg, 100%, 9%);
 }
 
 body {
@@ -40,13 +41,10 @@ header h1 {
   text-decoration: none;
   text-align: center;
   border-radius: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 5px;
 }
 .navbar .logo {
-  height: 1.5rem;
+  height: 1rem;
 }
 
 .main {
@@ -74,12 +72,56 @@ header h1 {
   margin-bottom: 2rem;
 }
 
+.card {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+  margin-top: 2rem;
+}
+.card img {
+  margin-top: 15px;
+}
+.card p {
+  color: hsl(208deg, 11%, 55%);
+}
+.card .contenido {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.LastCard {
+  background-color: #fff;
+  color: #000;
+  font-weight: 400;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+  position: relative;
+  top: -30px;
+}
+.LastCard a {
+  background-color: hsl(322deg, 100%, 66%);
+  text-decoration: none;
+  border-radius: 20px;
+  display: inline-block;
+  /* padding: 6px; */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
 footer {
   max-width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
   color: #fff;
   background-color: hsl(192deg, 100%, 9%);
+  margin-top: 50px;
 }
 footer .logo-texto {
   display: flex;
@@ -112,4 +154,4 @@ footer .copyright {
   padding-bottom: 1rem;
 }
 
-/*main section*//*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
