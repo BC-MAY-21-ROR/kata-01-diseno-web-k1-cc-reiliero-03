@@ -217,6 +217,7 @@ footer .copyright {
   }
   footer {
     margin-top: 150px;
+    display: grid;
   }
   footer .LastCard {
     width: 50%;
