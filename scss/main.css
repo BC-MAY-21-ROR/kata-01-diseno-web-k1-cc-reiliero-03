@@ -163,4 +163,22 @@ footer .copyright {
   margin-top: 25px;
   margin-bottom: 0;
   padding-bottom: 1rem;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background: url(../images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main img {
+    padding-right: 10px;
+  }
+  .main .inicio {
+    margin-right: 10px;
+    text-align: left;
+  }
 }/*# sourceMappingURL=main.css.map */
