@@ -165,4 +165,40 @@ footer .copyright {
   padding-bottom: 1rem;
 }
 
+@media (min-width: 1440px) {
+  body {
+    background: url(../images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+  }
+  .navbar .logo {
+    margin-left: 140px;
+  }
+  .navbar .btn {
+    margin-right: 180px;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main img {
+    padding-right: 10px;
+  }
+  .main .inicio {
+    margin-right: 10px;
+    text-align: left;
+  }
+  .main .inicio h1 {
+    font-size: 2.5rem;
+  }
+  .tarjetas .card1 .contenido {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .tarjetas .card1 .contenido .texto {
+    align-self: center;
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
